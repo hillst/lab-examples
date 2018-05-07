@@ -1,0 +1,9 @@
+"__default__":
+    "mem":  "4G"
+    "rt":   "08:00:00"
+sort_split_bams:
+    "mem": "8G"
+    "rt":  "12:00:00"
+merge_sorted_bams:
+    "mem": "8G"
+    "rt":  "16:00:00" 
