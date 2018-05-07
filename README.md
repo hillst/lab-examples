@@ -16,10 +16,12 @@
 ### Commands
 
 qstat -- show status of current jobs. qw is queue wait, Ew, is error wait (need to delete job), r is running, dr, is deleting running job.
+
 qstat -F -- shows full output of all nodes on the cluster. Recommend filtering output with grep or viewing it with less.
+
 qdel -- delete jobs with either the jobname or the jobid. Use -u your_username to delete all of your active jobs.c
 
-qquota
+qquota -- show your current quota usage.
 
 ### Headers/runtime parameters
 
